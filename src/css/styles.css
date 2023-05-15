@@ -71,6 +71,19 @@ main .listagem-pokemon{
     justify-content: center;
 }
 
+main .box-fora{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.4);
+    padding-top: 35px;
+    overflow-y: scroll;
+    max-height: 730px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
 main .cartao-pokemon{
     background-color: #d8e3ec;
     width: 200px;
