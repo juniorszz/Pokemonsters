@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
+    max-height: 100px;
     margin: 0 auto;
     background-image: url(../imagens/background.png);
     background-size: cover;
@@ -30,7 +31,8 @@ header .imagem-botao {
     cursor: pointer;
     border: 2px solid ;
     border-radius: 8px;
-    background-color: transparent;
+    background: linear-gradient(180deg, red 50%, white 50%);
+    opacity: 0.8;
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
     font-size: 17px;
@@ -42,11 +44,11 @@ header .imagem-botao {
 }
 
 .gen2:hover{
-    background-color: #96d9d6;
+    transform: scale(1.05);
 }
 
 .modo-escuro .gen2{
-    color: white
+    color: black;
 }
 
 header #botao-alterar-tema{
